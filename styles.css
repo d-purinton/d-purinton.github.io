@@ -1,49 +1,46 @@
-/*body {
-  font-family: "Helvetica", sans-serif;
-  width: 960px;
-  margin: 10px auto;*/
+body {
 }
-img {
-  /*width: 150px;*/
 
+img {
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .title1{
   font-family: 'Finger Paint', cursive;
 }
 
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+    display: block;
+    }
+
 h3 {font-family: 'Finger Paint', cursive;}
+
+.name {font-family: 'Finger Paint', cursive;}
+
+li {font-family: 'Exo', sans-serif;}
+
+p {font-family: 'Exo', sans-serif;}
 
 h1 {font-family: 'Finger Paint',cursive;}
 
 .navbar-brand {font-family: 'Finger Paint', cursive;}
 
-.weather-report {font-family: 'Exo', sans-serif;}
+.total {font-family: 'Exo', sans-serif;}
 
 .pic {
   /*box-shadow: 8px 8px 4px #AAA;*/
   border: 8px solid grey;
   padding: 5px
-
 }
 
 .header {
   background: #EEE;
   padding: 14px;
   border-radius: 15px;
-}
-/*
-h3 {
-  border-bottom: solid 4px gray;
-  padding-bottom: 8px;
-}*/
-
-h2 {
-  margin-left: auto;
-  margin-right: auto;
-  font: "Arial Black", sans-serif;
-
 }

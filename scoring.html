@@ -13,18 +13,19 @@
 
   </head>
 
-
+<body>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img class="img-circle" alt="Brand" width="30px" src="peyton-nosepick.jpg">
         <a class="navbar-brand" href="index.html">Fantasy Failures</a>
       </a>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="scoring.html">Scoring</a></li>
         <li><a href="allstars.html"> Dreamteam</a></li>
-        <li><a href="weather.html" > Weather in Chicago</a></li>
+        <li><a href="todo.html" > Create a Team </a></li>
+        <li><a href="pics.html"> Photos </a></li>
     </div>
   </div>
 </nav>
@@ -32,27 +33,25 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-3">
-      <div class="panel-heading">
       <img class="pic img-rounded" width=100% src="jones-draft.jpg">
         <h3>Draft System</h3>
-        <p>Weekly drafts on Saturday afternoons</p>
-      </div>
+        <p class="total">Weekly drafts on Saturday afternoons
         <br>
         <br><b>Pick order:</b> reverse order from previous week's results, with the first pick dropping back to the last pick after each draft round
         <br>
         <br><b>Rounds:</b> the first pick of each round gets to decide which position is being drafted that round
         <br>
         <br><b>Rules:</b> your player must be an active starter on his team, an injured player on your roster wil cost you 10 points!
-        <br>
+        <br></p>
 
     </div>
     <div class="col-sm-9 panel panel-success">
       <div class="panel-heading">
         <h1>Scoring</h1>
-        <p>Each team consists of one (1) QB, one (1) RB, two (2) WRs, one (1) Flex, and one (1) DEF/ST</p>
+        <p class="total">Each team consists of one (1) QB, one (1) RB, two (2) WRs, one (1) Flex, and one (1) DEF/ST</p>
       </div>
       <h3>Quarterback Points</h3>
-      <table class="table" border=2>
+      <table class="table total" border=2>
         <tr>
           <td><b>Touchdowns</td>
           <td>-5 pts</td>
@@ -128,7 +127,7 @@
         </tr>
       </table>
       <h3>Wide Receivers, Running Backs, and Flex Points</h3>
-      <table class="table" border=2>
+      <table class="table total" border=2>
         <tr>
           <td><b>Touchdowns</td>
           <td>-5 pts</td>
@@ -189,7 +188,7 @@
         </tr>
       </table>
       <h3>Defense and Special Teams</h3>
-      <table class="table" border=2>
+      <table class="table total" border=2>
         <tr>
           <td><b>Sack</td>
           <td>-1 pt</td>
@@ -266,3 +265,13 @@
     </div>
   </div>
 </div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text muted"> Created by Dave Purinton
+    <br>Feel free to contact me at: purinton.dave@gmail.com
+    </p>
+  </div>
+</footer>
+</body>
+</html>
