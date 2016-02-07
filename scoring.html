@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fantasy Failure</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+  </head>
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img class="img-circle" alt="Brand" width="30px" src="peyton-nosepick.jpg">
+        <a class="navbar-brand" href="index.html">Fantasy Failures</a>
+      </a>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="scoring.html">Scoring</a></li>
+        <li><a href="allstars.html"> Dreamteam</a></li>
+        <li><a href="weather.html" > Weather in Chicago</a></li>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel-heading">
+      <img class="pic img-rounded" width=100% src="jones-draft.jpg">
+        <h3>Draft System</h3>
+        <p>Weekly drafts on Saturday afternoons</p>
+      </div>
+        <br>
+        <br><b>Pick order:</b> reverse order from previous week's results, with the first pick dropping back to the last pick after each draft round
+        <br>
+        <br><b>Rounds:</b> the first pick of each round gets to decide which position is being drafted that round
+        <br>
+        <br><b>Rules:</b> your player must be an active starter on his team, an injured player on your roster wil cost you 10 points!
+        <br>
+
+    </div>
+    <div class="col-sm-9 panel panel-success">
+      <div class="panel-heading">
+        <h1>Scoring</h1>
+        <p>Each team consists of one (1) QB, one (1) RB, two (2) WRs, one (1) Flex, and one (1) DEF/ST</p>
+      </div>
+      <h3>Quarterback Points</h3>
+      <table class="table" border=2>
+        <tr>
+          <td><b>Touchdowns</td>
+          <td>-5 pts</td>
+        </tr>
+        <tr>
+          <td><b>Interceptions</td>
+            <td><table class="table" border=2>
+              <tr>
+                <td>Standard</td>
+                <td>3 pts</td>
+              </tr>
+              <tr>
+                <td>Redzone</td>
+                <td>5 pts</td>
+              </tr>
+            </td></table>
+        </tr>
+        <tr>
+          <td><b>Sacks Taken</td>
+            <td><table class="table" border=2>
+              <tr>
+                <td>Standard</td>
+                <td>1 pts</td>
+              </tr>
+              <tr>
+                <td>Safety</td>
+                <td>3 pts</td>
+              </tr>
+            </td></table>
+          </tr>
+        <tr>
+          <td><b>Completion Percentage</td>
+          <td><table class="table" border=2>
+            <tr>
+              <td>0% - 60%</td>
+              <td>5 pts</td>
+            </tr>
+            <tr>
+              <td>60% - 70%</td>
+              <td>3 pts</td>
+            </tr>
+            <tr>
+              <td>70% - 80%</td>
+              <td>0 pts</td>
+            </tr>
+            <tr>
+              <td>80% - 90%</td>
+              <td>-3 pts</td>
+            </tr>
+            <tr>
+              <td>90% - 100%</td>
+              <td>-5 pts</td>
+            </tr>
+          </table>
+        </tr>
+        <tr>
+          <td><b>Fumbles</td>
+          <td><table class="table" border=2>
+            <tr>
+              <td>Recovered</td>
+              <td>3 pts</td>
+            </tr>
+            <tr>
+              <td>Lost</td>
+              <td>5 pts</td>
+            </tr>
+            <tr>
+              <td>Redzone</td>
+              <td>+1 pt</td>
+            </tr>
+
+          </td></table>
+        </tr>
+      </table>
+      <h3>Wide Receivers, Running Backs, and Flex Points</h3>
+      <table class="table" border=2>
+        <tr>
+          <td><b>Touchdowns</td>
+          <td>-5 pts</td>
+        </tr>
+        <tr>
+          <td><b>Fumbles</td>
+          <td><table class="table" border=2>
+            <tr>
+              <td>Recovered</td>
+              <td>3 pts</td>
+            </tr>
+            <tr>
+              <td>Lost</td>
+              <td>5 pts</td>
+            </tr>
+            <tr>
+              <td>Redzone</td>
+              <td>+1 pt</td>
+            </tr>
+          </td></table>
+        </tr>
+          <td><b>Dropped Passes</td>
+            <td><table class="table" border=2>
+              <tr>
+                <td>Standard</td>
+                <td>3 pts</td>
+              </tr>
+              <tr>
+                <td>Redzone</td>
+                <td>5 pts</td>
+              </tr>
+            </td></table>
+        </tr>
+        <tr>
+          <td><b>Yards Gained</td>
+          <td><table class="table" border=2>
+            <tr>
+              <td>0 - 10</td>
+              <td>5 pts</td>
+            </tr>
+            <tr>
+              <td>10 - 30</td>
+              <td>3 pts</td>
+            </tr>
+            <tr>
+              <td>30 - 60</td>
+              <td>0 pts</td>
+            </tr>
+            <tr>
+              <td>60 - 90</td>
+              <td>-3 pts</td>
+            </tr>
+            <tr>
+              <td>Greater than 90</td>
+              <td>-5 pts</td>
+            </tr>
+          </table>
+        </tr>
+      </table>
+      <h3>Defense and Special Teams</h3>
+      <table class="table" border=2>
+        <tr>
+          <td><b>Sack</td>
+          <td>-1 pt</td>
+        </tr>
+        <tr>
+          <td><b>Forced Fumble</td>
+          <td>-5 pts</td>
+        </tr>
+        <tr>
+          <td><b>DEF/ST Touchdown</td>
+          <td>-5 pts</td>
+        </tr>
+        <tr>
+          <td><b>Missed Fieldgoal</td>
+          <td>3 pts</td>
+        </tr>
+        <tr>
+          <td><b>Missed PAT</td>
+          <td>5 pts</td>
+        </tr>
+        <tr>
+        <td><b>Yards Allowed</td>
+        <td><table class="table" border=2>
+          <tr>
+            <td>Greater than 500</td>
+            <td>5 pts</td>
+          </tr>
+          <tr>
+            <td>450 - 350</td>
+            <td>3 pts</td>
+          </tr>
+          <tr>
+            <td>350 - 250</td>
+            <td>0 pts</td>
+          </tr>
+          <tr>
+            <td>250 - 200</td>
+            <td>-3 pts</td>
+          </tr>
+          <tr>
+            <td>Less than 200</td>
+            <td>-5 pts</td>
+          </tr>
+        </table>
+        </tr>
+        <tr>
+              <td><b>Points Allowed</td>
+              <td><table class="table" border=2>
+                <tr>
+                  <td>Greater than 45</td>
+                  <td>5 pts</td>
+                </tr>
+                <tr>
+                  <td>30 - 45</td>
+                  <td>3 pts</td>
+                </tr>
+                <tr>
+                  <td>24 - 30</td>
+                  <td>0 pts</td>
+                </tr>
+                <tr>
+                  <td>17 - 24</td>
+                  <td>-3 pts</td>
+                </tr>
+                <tr>
+                  <td>Less than 17</td>
+                  <td>-5 pts</td>
+                </tr>
+              </table>
+        </tr>
+        </td></table>
+        </tr>
+
+    </div>
+  </div>
+</div>

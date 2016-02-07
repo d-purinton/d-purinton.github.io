@@ -1,0 +1,49 @@
+/*body {
+  font-family: "Helvetica", sans-serif;
+  width: 960px;
+  margin: 10px auto;*/
+}
+img {
+  /*width: 150px;*/
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.title1{
+  font-family: 'Finger Paint', cursive;
+}
+
+h3 {font-family: 'Finger Paint', cursive;}
+
+h1 {font-family: 'Finger Paint',cursive;}
+
+.navbar-brand {font-family: 'Finger Paint', cursive;}
+
+.weather-report {font-family: 'Exo', sans-serif;}
+
+.pic {
+  /*box-shadow: 8px 8px 4px #AAA;*/
+  border: 8px solid grey;
+  padding: 5px
+
+}
+
+.header {
+  background: #EEE;
+  padding: 14px;
+  border-radius: 15px;
+}
+/*
+h3 {
+  border-bottom: solid 4px gray;
+  padding-bottom: 8px;
+}*/
+
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  font: "Arial Black", sans-serif;
+
+}
